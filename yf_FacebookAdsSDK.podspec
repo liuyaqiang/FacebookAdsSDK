@@ -20,10 +20,10 @@ s.source           = { :git => "https://github.com/liuyaqiang/yf_FacebookAdsSDK.
 
 s.vendored_frameworks = 'Facebook/FBAudienceNetwork.framework'
 
-#s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
+s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
 
-#s.frameworks = 'UIKit', 'AVFoundation', 'Foundation', 'CoreMedia', 'CoreLocation'
+s.frameworks = 'UIKit', 'AVFoundation', 'Foundation', 'CoreMedia', 'CoreLocation'
 
-#s.libraries = 'z', 'stdc++', 'sqlite3'
+s.libraries = 'z', 'stdc++', 'sqlite3'
 
 end
