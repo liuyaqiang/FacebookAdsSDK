@@ -24,7 +24,7 @@ s.source_files = 'Facebook/FBAudienceNetwork.framework/Headers/*.{h}','Facebook/
 
   s.public_header_files = 'Facebook/FBAudienceNetwork.framework/Headers/**/*.{h}','Facebook/FBAudienceNetworkBiddingKit.framework/Headers/*.{h}','Facebook/Bolts.framework/Headers/*.{h}','Facebook/FBSDKCoreKit.framework/Headers/*.{h}'
 
-s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC','OTHER_LDFLAGS' => '-lxml2'}
+s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC -lxml2'}
 
 s.frameworks = 'UIKit', 'AVFoundation', 'Foundation', 'CoreMedia', 'CoreLocation', 'CoreTelephony', 'SystemConfiguration', 'StoreKit', 'MediaPlayer', 'CFNetwork', 'AdSupport', 'ImageIO'
 s.libraries = 'z', 'stdc++', 'sqlite3'
