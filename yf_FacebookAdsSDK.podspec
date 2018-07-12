@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
 s.name             = "yf_FacebookAdsSDK"
-s.version          = "4.28.1"
+s.version          = "4.99.1"
 s.summary          = "yf_FacebookAdsSDK"
 
 s.description      = <<-DESC
@@ -18,11 +18,11 @@ s.platform     = :ios, '8.0'
 
 s.source           = { :git => "https://github.com/liuyaqiang/yf_FacebookAdsSDK.git", :tag => "#{s.version}" }
 
-s.vendored_frameworks = 'Facebook/FBAudienceNetwork.framework','Facebook/FBAudienceNetworkBiddingKit.framework','Facebook/Bolts.framework','Facebook/FBSDKCoreKit.framework'
+s.vendored_frameworks = 'Facebook/FBAudienceNetwork.framework'
 
-s.source_files = 'Facebook/FBAudienceNetwork.framework/Headers/*.{h}','Facebook/FBAudienceNetworkBiddingKit.framework/Headers/*.{h}','Facebook/Bolts.framework/Headers/*.{h}','Facebook/FBSDKCoreKit.framework/Headers/*.{h}'
+s.source_files = 'Facebook/FBAudienceNetwork.framework/Headers/*.{h}'
 
-  s.public_header_files = 'Facebook/FBAudienceNetwork.framework/Headers/**/*.{h}','Facebook/FBAudienceNetworkBiddingKit.framework/Headers/*.{h}','Facebook/Bolts.framework/Headers/*.{h}','Facebook/FBSDKCoreKit.framework/Headers/*.{h}'
+s.public_header_files = 'Facebook/FBAudienceNetwork.framework/Headers/**/*.{h}'
 
 s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC -lxml2'}
 
