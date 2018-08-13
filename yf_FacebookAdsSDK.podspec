@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
 s.name             = "yf_FacebookAdsSDK"
-s.version          = "4.99.1"
+s.version          = "4.99.2"
 s.summary          = "yf_FacebookAdsSDK"
 
 s.description      = <<-DESC
