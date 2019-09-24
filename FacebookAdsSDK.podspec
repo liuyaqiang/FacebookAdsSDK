@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
 s.name             = "FacebookAdsSDK"
-s.version          = "5.3.2"
+s.version          = "5.5.0"
 s.summary          = "FacebookAdsSDK"
 
 s.description      = <<-DESC
@@ -28,5 +28,7 @@ s.xcconfig         = { 'OTHER_LDFLAGS' => '-ObjC -lxml2'}
 s.frameworks       = 'UIKit', 'AVFoundation', 'Foundation', 'CoreMedia', 'CoreLocation', 'CoreTelephony', 'SystemConfiguration', 'StoreKit', 'MediaPlayer', 'CFNetwork', 'AdSupport', 'ImageIO', 'VideoToolbox', 'CoreMotion', 'WebKit'
 
 s.libraries        = 'z', 'stdc++', 'sqlite3'
+
+s.dependency 'FBSDKCoreKit'
 
 end
